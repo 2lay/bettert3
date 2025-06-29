@@ -13,7 +13,7 @@ To install this userscript, you will need a userscript manager browser extension
 1.  **Install Tampermonkey:** If you don't already have it, install the Tampermonkey extension for your browser.
 2.  **Install userscript:** Click on this link to install the `bettert3.user.js` script:
     [Install BetterT3](https://github.com/2lay/bettert3/raw/refs/heads/main/src/bettert3.user.js)
-
+3. **Configure!** Go to Settings -> BetterT3, and configure this extension to your liking!
 ---
 
 ## PSA for Chromium Browser Users
