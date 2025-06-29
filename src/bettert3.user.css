@@ -1,0 +1,172 @@
+html.light {
+  --theme-hue: 1;  
+  --background: var(--theme-hue) 20% 95% !important;
+  --foreground: var(--theme-hue) 40% 15% !important;
+  --card: var(--theme-hue) 15% 98% !important;
+  --card-foreground: var(--theme-hue) 10% 30% !important;
+  --popover: var(--theme-hue) 0% 100% !important;
+  --popover-foreground: var(--theme-hue) 40% 15% !important;
+
+  --primary: var(--theme-hue) 75% 57% !important;
+  --primary-foreground: var(--theme-hue) 0% 100% !important;
+  --secondary: var(--theme-hue) 30% 85% !important;
+  --secondary-foreground: var(--theme-hue) 40% 35% !important;
+
+  --muted: var(--theme-hue) 25% 80% !important;
+  --muted-foreground: var(--theme-hue) 35% 40% !important;
+  --accent: var(--theme-hue) 30% 85% !important;
+  --accent-foreground: var(--theme-hue) 10% 30% !important;
+
+  --destructive: 0 85% 60% !important;
+  --destructive-foreground: var(--theme-hue) 0% 100% !important;
+
+  --border: var(--theme-hue) 15% 88% !important;
+  --input: var(--theme-hue) 20% 85% !important;
+  --ring: var(--theme-hue) 75% 57% !important;
+  --radius: 0.5rem !important;
+
+  --chart-1: var(--theme-hue) 70% 60% !important;
+  --chart-2: var(--theme-hue) 50% 45% !important;
+  --chart-3: var(--theme-hue) 30% 30% !important;
+  --chart-4: var(--theme-hue) 65% 65% !important;
+  --chart-5: var(--theme-hue) 80% 70% !important;
+
+  --sidebar-background: var(--theme-hue) 25% 90% !important;
+  --sidebar-foreground: var(--theme-hue) 10% 30% !important;
+  --sidebar-primary: var(--theme-hue) 10% 30% !important;
+  --sidebar-primary-foreground: var(--theme-hue) 0% 98% !important;
+  --sidebar-accent: var(--theme-hue) 5% 97% !important;
+  --sidebar-accent-foreground: var(--theme-hue) 10% 30% !important;
+  --sidebar-border: var(--theme-hue) 10% 92% !important;
+  --sidebar-ring: var(--theme-hue) 75% 57% !important;
+
+  --gradient-noise-top: var(--theme-hue) 20% 93% !important;
+  --color-heading: var(--theme-hue) 60% 20% !important;
+  --chat-border: var(--theme-hue) 30% 84% !important;
+  --chat-background: var(--theme-hue) 25% 98% !important;
+    
+  --chat-accent: hsl(var(--theme-hue), 50%, 97%) !important;
+    
+  --chat-input-gradient: var(--theme-hue) 40% 90% !important;
+    
+  --chat-input-background: hsla(var(--theme-hue), 0%, 100%, var(--blur-fallback, 0.1)) !important;
+  --chat-overlay: hsla(var(--theme-hue), 30%, 92%, var(--blur-fallback, 0.72)) !important;
+  --wordmark-color: hsl(var(--theme-hue), 80%, 50%) !important;
+
+  .bg-\[rgb\(162\,59\,103\)\] {
+    background-color: hsl(var(--theme-hue), 50%, 45%) !important;
+  }
+
+  .hover\:bg-\[\#d56698\]:hover {
+    background-color: hsl(var(--primary) / 0.9) !important;
+  }
+
+  .absolute.inset-0.opacity-40[style*="background-image"] {
+    background-image: radial-gradient(
+        closest-corner at 180px 36px,
+        rgba(255, 255, 255, 0.17),
+        rgba(255, 255, 255, 0)
+      ),
+      linear-gradient(
+        hsl(var(--theme-hue), 40%, 98%) 15%, 
+        hsl(var(--theme-hue), 35%, 95%)
+      ) !important;
+  }
+
+  li::marker,
+  summary::marker {
+    color: hsl(var(--primary)) !important;
+  }
+
+  blockquote {
+    border-left: 4px solid hsl(var(--primary)) !important;
+  }
+
+  /* Theme Color Palette - Backgrounds (formerly pink) */
+  .bg-pink-50 { background-color: hsl(var(--theme-hue), 40%, 97%) !important; }
+  .bg-pink-100 { background-color: hsl(var(--theme-hue), 35%, 93%) !important; }
+  .bg-pink-200 { background-color: hsl(var(--theme-hue), 40%, 85%) !important; }
+  .bg-pink-300 { background-color: hsl(var(--theme-hue), 45%, 75%) !important; }
+  .bg-pink-400 { background-color: hsl(var(--theme-hue), 55%, 65%) !important; }
+  .bg-pink-500 { background-color: hsl(var(--theme-hue), 65%, 57%) !important; }
+  .bg-pink-600 { background-color: hsl(var(--theme-hue), 70%, 50%) !important; }
+  .bg-pink-700 { background-color: hsl(var(--theme-hue), 65%, 42%) !important; }
+  .bg-pink-800 { background-color: hsl(var(--theme-hue), 60%, 35%) !important; }
+  .bg-pink-900 { background-color: hsl(var(--theme-hue), 55%, 28%) !important; }
+  .bg-pink-950 { background-color: hsl(var(--theme-hue), 50%, 20%) !important; }
+
+  .text-pink-50 { color: hsl(var(--theme-hue), 40%, 97%) !important; }
+  .text-pink-100 { color: hsl(var(--theme-hue), 35%, 93%) !important; }
+  .text-pink-200 { color: hsl(var(--theme-hue), 40%, 85%) !important; }
+  .text-pink-300 { color: hsl(var(--theme-hue), 45%, 75%) !important; }
+  .text-pink-400 { color: hsl(var(--theme-hue), 55%, 65%) !important; }
+  .text-pink-500 { color: hsl(var(--theme-hue), 65%, 57%) !important; }
+  .text-pink-600 { color: hsl(var(--theme-hue), 70%, 50%) !important; }
+  .text-pink-700 { color: hsl(var(--theme-hue), 65%, 42%) !important; }
+  .text-pink-800 { color: hsl(var(--theme-hue), 60%, 35%) !important; }
+  .text-pink-900 { color: hsl(var(--theme-hue), 55%, 28%) !important; }
+  .text-pink-950 { color: hsl(var(--theme-hue), 50%, 20%) !important; }
+
+  .hover\:bg-pink-600\/90:hover,
+  [class*="hover:bg-pink-600/90"]:hover {
+    background-color: hsl(var(--primary) / 0.9) !important;
+  }
+}
+
+#theme-hue-input {
+  -webkit-appearance: none; 
+  width: 100%; 
+  height: 8px; 
+  background: linear-gradient(
+    to right,
+    hsl(0, 75%, 57%),
+    hsl(30, 75%, 57%),
+    hsl(60, 75%, 57%),
+    hsl(90, 75%, 57%),
+    hsl(120, 75%, 57%),
+    hsl(150, 75%, 57%),
+    hsl(180, 75%, 57%),
+    hsl(210, 75%, 57%),
+    hsl(240, 75%, 57%),
+    hsl(270, 75%, 57%),
+    hsl(300, 75%, 57%),
+    hsl(330, 75%, 57%),
+    hsl(360, 75%, 57%)
+  ); 
+  border-radius: 5px; 
+  outline: none; 
+  opacity: 0.9; 
+  transition: opacity 0.2s; 
+}
+
+#theme-hue-input::-webkit-slider-thumb {
+  -webkit-appearance: none; 
+  appearance: none;
+  width: 20px; 
+  height: 20px; 
+  background: hsl(var(--primary)); 
+  border: 1px solid hsl(var(--primary-foreground)); 
+  border-radius: 50%; 
+  cursor: pointer; 
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.3); 
+}
+
+#theme-hue-input::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: hsl(var(--primary));
+  border: 1px solid hsl(var(--primary-foreground));
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+}
+
+#theme-hue-input:active::-webkit-slider-thumb {
+  background: hsl(var(--primary));
+  box-shadow: 0 0 0 3px rgba(var(--primary), 0.3); 
+}
+
+#theme-hue-input:active::-moz-range-thumb {
+  background: hsl(var(--primary));
+  box-shadow: 0 0 0 3px rgba(var(--primary), 0.3);
+}
